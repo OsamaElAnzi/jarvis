@@ -1,0 +1,65 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(200, 196, 196);
+    color: white;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid black;
+    color: white;
+    background-color: gray;
+    padding: 20px;
+}
+h1, h2, h3{
+    color: greenyellow;
+}
+footer {
+    padding-top: 50%;
+    text-align: center;
+}
+body {
+    background-image: url('download.jpeg');
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    padding: 10px;
+    background-color: black;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inleiding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table {
+    border: 2px solid greenyellow;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: greenyellow;
+}
+table th {
+    padding: 2%;
+    border-bottom: 2px solid;
+}
+table td {
+    padding: 2%;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
